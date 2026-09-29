@@ -14,23 +14,6 @@ A entrega também registra a construção da página **Análise Geográfica**, c
 - **Microsoft Excel** — base `Financial Sample.xlsx`
 - **GitHub** — versionamento e documentação do projeto
 
-## 📁 Estrutura do repositório
-
-```text
-powerbi-analise-dashboard-vendas/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── dados/
-│   └── Financial Sample.xlsx
-├── imagens/
-│   ├── resultados-base.png
-│   ├── erro-radar-chart.png
-│   └── erro-chiclet-slicer.png
-└── relatorio/
-    └── Desafio_Analise_Dashboard_Vendas_PowerBI.pbix
-```
-
 ## 👀 Visão geral
 
 A base possui **700 registros** e 16 campos, com informações de segmento, país, produto, unidades vendidas, preços, vendas, custos, lucro e período.
