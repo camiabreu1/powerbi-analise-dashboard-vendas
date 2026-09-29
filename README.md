@@ -2,9 +2,6 @@
 
 Projeto desenvolvido para o desafio **Analisando dados de um Dashboard de Vendas no Power BI**, utilizando a base **Financial Sample**.
 
-[![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/desktop/)
-[![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?logo=github)](https://github.com/)
-
 ## 🎯 Objetivo
 
 Replicar e complementar um dashboard de vendas no Power BI, explorando indicadores de **vendas, lucro, unidades vendidas, segmentos, produtos e distribuição geográfica**.
@@ -15,7 +12,7 @@ A entrega também registra a construção da página **Análise Geográfica**, c
 
 - **Power BI Desktop** — modelagem e visualização dos dados
 - **Microsoft Excel** — base `Financial Sample.xlsx`
-- **Git e GitHub** — versionamento e documentação do projeto
+- **GitHub** — versionamento e documentação do projeto
 
 ## 📁 Estrutura do repositório
 
@@ -37,8 +34,6 @@ powerbi-analise-dashboard-vendas/
 ## 👀 Visão geral
 
 A base possui **700 registros** e 16 campos, com informações de segmento, país, produto, unidades vendidas, preços, vendas, custos, lucro e período.
-
-![Resumo dos dados](imagens/resultados-base.png)
 
 ## 📊 Páginas do relatório
 
@@ -126,35 +121,3 @@ Utilize os filtros, segmentações e elementos gráficos para analisar:
 - desempenho por produto;
 - evolução por período;
 - relação entre vendas, custos e lucro.
-
-## 🖼️ Imagens do projeto
-
-### Resumo da base
-
-![Resumo da base](imagens/resultados-base.png)
-
-### Registro de dependências de visuais personalizados
-
-Durante a abertura do PBIX em determinados ambientes, podem ser exibidas solicitações para instalação de visuais personalizados.
-
-![Erro Radar Chart](imagens/erro-radar-chart.png)
-
-![Erro Chiclet Slicer](imagens/erro-chiclet-slicer.png)
-
-Esses avisos estão relacionados aos visuais personalizados e **não à qualidade dos dados da Financial Sample**. Quando necessário, utilize **Obter mais visuais** no Power BI Desktop para instalar o visual solicitado.
-
-## 🔎 Fonte do desafio
-
-Repositório de referência utilizado no desafio:
-
-https://github.com/julianazanelatto/power_bi_analyst
-
-## 📌 Observação sobre a base
-
-A `Financial Sample.xlsx` é uma base de exemplo. Os indicadores apresentados neste README foram calculados a partir dos registros disponíveis no arquivo e servem para documentar o projeto.
-
-## 👩‍💻 Projeto
-
-**Análise de Dashboard de Vendas — Power BI**
-
-Desafio de formação em análise de dados e Business Intelligence.
